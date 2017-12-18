@@ -1,24 +1,25 @@
 # PyWeather
 A python script to visualize the weather of 500+ cities across the world. 
 
-In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
+A Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. Utilizes a [simple Python library](https://pypi.python.org/pypi/citipy and the [OpenWeatherMap API](https://openweathermap.org/api). 
 
-Your objective is to build a series of scatter plots to showcase the following relationships:
+Contaings a series of scatter plots to showcase the following relationships:
 
 * Temperature (F) vs. Latitude
+
+![](images/temp.png)
+
 * Humidity (%) vs. Latitude
+
+![](images/humidity.png)
+
 * Cloudiness (%) vs. Latitude
+
+![](images/cloud.png)
+
 * Wind Speed (mph) vs. Latitude
 
-Your final notebook must:
+![](images/windspeed.png)
 
-* Randomly select **at least** 500 unique (non-repeat) cities based on latitude and longitude.
-* Perform a weather check on each of the cities using a series of successive API calls.
-* Include a print log of each city as it's being processed with the city number and city name.
-* Save both a CSV of all data retrieved and png images for each scatter plot.
+![](images/conclusions.png)
 
-As final considerations:
-
-* You must use Matplotlib to create your plots.
-* You must include a written description of three observable trends based on the data.
-* You must use proper labeling of your plots, including aspects like: Plot Titles (with date of analysis) and Axes Labels.
